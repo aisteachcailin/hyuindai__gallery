@@ -2022,7 +2022,7 @@
 }
 .gallery__indicator {
     position: absolute;
-    right: 32px;
+    right: calc(25% + 38.61px);
     bottom: 32px;
     font-size: 14px;
     color: #fff;
