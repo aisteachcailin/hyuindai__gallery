@@ -1,0 +1,202 @@
+.head {
+    padding-top: 32px;
+    background-image: url("../../images/gallery/head.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.head__center {
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: hsla(0,0%,100%,.75)
+}
+
+.head__title {
+    display: inline-block;
+    font-size: 4.2rem;
+    line-height: 1.14;
+    color: #000
+}
+
+.filters {
+    background-color: #f6f3f2
+}
+
+.filters__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0
+}
+
+.filters__date,.filters__search {
+    width: 352px;
+    margin-right: 32px
+}
+
+.filters__date {
+    position: relative;
+    margin-right: 64px
+}
+
+.filters__button {
+    width: 188px
+}
+
+.filters__button .df-button {
+    display: block;
+    width: 100%;
+    text-align: center
+}
+
+.filters__clear {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+.filters__clear svg * {
+    fill: #000
+}
+
+.filters__clear:not(.active) {
+    cursor: default;
+    pointer-events: none;
+    opacity: .5
+}
+
+.filters__clear:hover {
+    opacity: .7
+}
+
+.body {
+    padding-top: 48px
+}
+
+.back {
+    padding-top: 25px;
+    background-color: #f6f3f2
+}
+
+.max-width, .breadcrumbs {
+    width: 69%
+}
+
+.breadcrumbs {
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width: 1262px) {
+    .head {
+        padding-top:45px
+    }
+
+    .head__center {
+        padding-top: 60px;
+        padding-bottom: 56px
+    }
+
+    .head__title {
+        font-size: 30px;
+        line-height: 36px
+    }
+
+    .filters__center {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-bottom: 32px
+    }
+
+    .filters__date,.filters__search {
+        margin-right: 0;
+        width: calc(50% - 16px)
+    }
+
+    .filters__search {
+        margin-right: 16px
+    }
+
+    .filters__date {
+        margin-left: 16px
+    }
+
+    .filters__button {
+        width: 208px;
+        margin-top: 32px
+    }
+
+    .body {
+        padding-top: 40px
+    }
+
+    .max-width, .breadcrumbs {
+        width: 75%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .head {
+        padding-top:33px
+    }
+
+    .head__center {
+        padding-top: 40px;
+        padding-bottom: 46px
+    }
+
+    .head__title {
+        font-size: 26px;
+        line-height: 40px
+    }
+
+    .filters__center {
+        padding-top: 24px
+    }
+
+    .filters__button,.filters__date,.filters__search {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 16px
+    }
+
+    .filters__button {
+        margin-bottom: 0
+    }
+
+    .filters .df-button,.filters .df-datepicker__body,.filters .df-search-simple__body {
+        padding: 12px 16px
+    }
+
+    .body {
+        padding-top: 24px
+    }
+
+    .max-width, .breadcrumbs {
+        width: 100%
+    }
+
+    .back {
+        padding-top: 15px
+    }
+}
