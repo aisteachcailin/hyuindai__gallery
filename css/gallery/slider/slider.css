@@ -20,7 +20,7 @@
   margin: 0 6px;
   background-color: #ffffff;
 }
-.slick-dots li.slick-active button {
+.slick-dots button:focus {
   color: #00aad2;
   text-decoration: underline;
 }

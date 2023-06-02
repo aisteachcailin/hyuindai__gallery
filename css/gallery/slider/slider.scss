@@ -20,11 +20,11 @@
         padding: 0;
         margin: 0 6px;
         background-color: #ffffff;
-    }
-    
-    &-dots li.slick-active button{
-        color: #00aad2;
-        text-decoration: underline;
+
+        &:focus {
+            color: #00aad2;
+            text-decoration: underline;
+        }
     }
 }
 
