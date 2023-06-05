@@ -150,7 +150,7 @@
     color: #000
 }
 
-.rewards-content__top {
+.news-content__top {
     padding-top: 36px;
     padding-bottom: 10px;
     background-color: #f6f3f2
@@ -300,11 +300,11 @@
         width: 75%;
     }
 
-    .rewards-content__top {
+    .news-content__top {
         padding-bottom: 0
     }
 
-    .rewards-content__top img {
+    .news-content__top img {
         margin-bottom: 0
     }
 
@@ -424,11 +424,11 @@
         margin-bottom: 42px
     }
 
-    .rewards-content__top {
+    .news-content__top {
         padding-top: 27px
     }
 
-    .rewards-content__top img {
+    .news-content__top img {
         margin-bottom: 0
     }
 
